@@ -1,32 +1,36 @@
-<h1>Listing vehicles</h1>
-
-<table>
+<%= @scraped_page.count %> <br>
+<table class="table table-hover table-condensed">
   <thead>
     <tr>
+      <th>ID</th>
       <th>Name</th>
-      <th>Year</th>
-      <th></th>
-      <th></th>
-      <th></th>
+      <th>Location</th>
+      <th>Date</th>
+      <th>Mileage</th>
+      <th>$$</th>
     </tr>
   </thead>
-
   <tbody>
-    <% @vehicles.each do |vehicle| %>
-      <tr>
-        <td><%= vehicle.name %></td>
-        <td><%= vehicle.year %></td>
-        <td><%= link_to 'Show', vehicle %></td>
-        <td><%= link_to 'Edit', edit_vehicle_path(vehicle) %></td>
-        <td><%= link_to 'Destroy', vehicle, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-      </tr>
+    <% @scraped_page.each do |vehicle| %>
+      
+    <tr>
+      <td><%= vehicle["id"] %></td>
+      <td><%= vehicle["name"] %></td>
+      <td><%= vehicle["auction"]["name"] %></td>
+      <td><%= vehicle["auction"]["date"] %></td>
+      <td><%= vehicle["meter"] %></td>
+      <% if vehicle["price"]["sale"] = "" %>
+        <td><%= vehicle["price"]["foreign"] %></td>
+      <% else %>
+        <td><%= vehicle["price"]["sale"] %></td>
+      <% end %>
+
+    </tr>
     <% end %>
   </tbody>
 </table>
 
-<br>
+ 
 
-<%= link_to 'New Vehicle', new_vehicle_path %>  
-<br>
 
-<%= pp @scraped_page.to_json %>
+

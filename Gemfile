@@ -30,6 +30,12 @@ gem 'jbuilder', '~> 1.2'
 
 gem 'nokogiri'
 gem 'mechanize'
+gem 'bootstrap-sass'
+
+group :development do
+  gem "better_errors"
+  gem 'quiet_assets'
+end
 
   # bundle exec rake doc:rails generates the API under doc/api.
 

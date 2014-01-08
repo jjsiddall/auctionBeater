@@ -4,10 +4,9 @@ class VehiclesController < ApplicationController
   # GET /vehicles
   # GET /vehicles.json
   def index
-    @vehicles = Vehicle.all
+    # @vehicles = Vehicle.all
 
     vehicle = Vehicle.new
-
     @scraped_page = vehicle.getAllVehiclesAndBuses
   
   end

@@ -1,36 +1,53 @@
 <%= @scraped_page.count %> <br>
-<table class="table table-hover table-condensed">
-  <thead>
-    <tr>
-      <th>ID</th>
-      <th>Name</th>
-      <th>Location</th>
-      <th>Date</th>
-      <th>Mileage</th>
-      <th>$$</th>
-    </tr>
-  </thead>
-  <tbody>
+
+  <div class="panel-group" id="accordion">
     <% @scraped_page.each do |vehicle| %>
-      
-    <tr>
-      <td><%= vehicle["id"] %></td>
-      <td><%= vehicle["name"] %></td>
-      <td><%= vehicle["auction"]["name"] %></td>
-      <td><%= vehicle["auction"]["date"] %></td>
-      <td><%= vehicle["meter"] %></td>
-      <% if vehicle["price"]["sale"] = "" %>
-        <td><%= vehicle["price"]["foreign"] %></td>
-      <% else %>
-        <td><%= vehicle["price"]["sale"] %></td>
-      <% end %>
-
-    </tr>
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" href="#<%= vehicle["id"] %>" class="collapsed">
+              <%= vehicle["lot"] %>
+              <%= vehicle["name"] %>
+              <%= vehicle["meter"] %>
+              <%= vehicle["cw"] %>
+            </a>
+          </h4>
+        </div>
+        <div id="<%= vehicle["id"] %>" class="panel-collapse collapse">
+          <div class="panel-body">
+            <% past_vehicles = Vehicle.where("name like ?", "%#{vehicle["name"]}%") %>
+              <div class="row">
+                <div class="col-md-2">Price</div>
+                <div class="col-md-2">Mileage</div>
+              </div>
+              <div class="row">
+                <div class="col-md-2">Min $: <%= number_to_currency(past_vehicles.first.minPrice(vehicle["name"])) %></div>
+                <div class="col-md-2">Min: <%= past_vehicles.minimum(:meter) %></div>
+              </div>
+              <div class="row">
+                <div class="col-md-2">Avg $: <%= number_to_currency(past_vehicles.first.averagePrice(vehicle["name"])) %></div>
+                <div class="col-md-2">Avg: <%= past_vehicles.average(:meter) %></div>
+              </div>
+              <div class="row">
+                <div class="col-md-2">Max $: <%= number_to_currency(past_vehicles.first.maxPrice(vehicle["name"])) %></div>
+                <div class="col-md-2">Max: <%= past_vehicles.maximum(:meter) %></div>
+              </div>
+                
+              
+            <% past_vehicles.each do |past_vehicle| %>
+              <div class="row">
+                <div class="col-md-2"><%= past_vehicle.auction_date %></div>
+                <div class="col-md-5"><%= past_vehicle.name %></div>
+                <% if past_vehicle.price_usd.include?("USD") %>
+                  <div class="col-md-2"><%= number_to_currency(past_vehicle.price_usd.to_i) %></div>
+                <% else %>
+                  <div class="col-md-2"><%= number_to_currency(past_vehicle.price_other.to_i) %></div>
+                <% end %>
+                <div class="col-md-2"><%= past_vehicle.meter %></div>
+              </div>
+            <% end %>
+          </div>
+        </div>
+      </div>
     <% end %>
-  </tbody>
-</table>
-
- 
-
-
-
+  </div>

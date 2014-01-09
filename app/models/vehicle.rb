@@ -269,9 +269,14 @@ class Vehicle < ActiveRecord::Base
 
 # have to do something about bad URLs and vins
 
-			url = "http://www.cargurus.com/Cars/instantMarketValueFromVIN.action?startUrl=%2F&carDescription.vin=#{vehicle["sn"]}"
-			doc = Nokogiri::HTML(open(url))
-			puts doc
+			if vehicle['sn'].to_s.length == 17
+				url = "http://www.cargurus.com/Cars/instantMarketValueFromVIN.action?startUrl=%2F&carDescription.vin=#{vehicle["sn"]}"
+				doc = Nokogiri::HTML(open(url))
+				dropdownValues = doc.css(".trim-select-dropdown option");
+				puts dropdownValues
+				vehicle["trim"] = dropdownValues
+
+			end
 		end
 
 	end

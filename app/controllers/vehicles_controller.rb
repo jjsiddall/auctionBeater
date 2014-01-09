@@ -8,7 +8,6 @@ class VehiclesController < ApplicationController
 
     vehicle = Vehicle.new
     @scraped_page = vehicle.getAllVehiclesAndBuses
-  
   end
 
   # GET /vehicles/1

@@ -10,29 +10,31 @@
               <%= vehicle["name"] %>
               <%= vehicle["meter"] %>
               <%= vehicle["cw"] %>
+              <%= link_to "Car Guru", "http://www.cargurus.com/Cars/instantMarketValueFromVIN.action?startUrl=%2F&carDescription.vin=#{vehicle["sn"]}", :class =>'btn btn-default btn-xs pull-right' %>
             </a>
           </h4>
         </div>
         <div id="<%= vehicle["id"] %>" class="panel-collapse collapse">
           <div class="panel-body">
             <% past_vehicles = Vehicle.where("name like ?", "%#{vehicle["name"]}%") %>
+            <% if !past_vehicles.empty? %>
               <div class="row">
                 <div class="col-md-2">Price</div>
                 <div class="col-md-2">Mileage</div>
               </div>
               <div class="row">
-                <div class="col-md-2">Min $: <%= number_to_currency(past_vehicles.first.minPrice(vehicle["name"])) %></div>
+                <div class="col-md-2">Min: <%= number_to_currency(past_vehicles.first.minPrice(vehicle["name"])) %></div>
                 <div class="col-md-2">Min: <%= past_vehicles.minimum(:meter) %></div>
               </div>
               <div class="row">
-                <div class="col-md-2">Avg $: <%= number_to_currency(past_vehicles.first.averagePrice(vehicle["name"])) %></div>
+                <div class="col-md-2">Avg: <%= number_to_currency(past_vehicles.first.averagePrice(vehicle["name"])) %></div>
                 <div class="col-md-2">Avg: <%= past_vehicles.average(:meter) %></div>
               </div>
               <div class="row">
-                <div class="col-md-2">Max $: <%= number_to_currency(past_vehicles.first.maxPrice(vehicle["name"])) %></div>
+                <div class="col-md-2">Max: <%= number_to_currency(past_vehicles.first.maxPrice(vehicle["name"])) %></div>
                 <div class="col-md-2">Max: <%= past_vehicles.maximum(:meter) %></div>
               </div>
-                
+            <% end %>                
               
             <% past_vehicles.each do |past_vehicle| %>
               <div class="row">

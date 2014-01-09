@@ -1,6 +1,5 @@
 class Vehicle < ActiveRecord::Base
 	def averagePrice(name)
-		
 		totalPrice = 0
 		vehicles = Vehicle.where("name like ?", "%#{name}%") 
 		vehicles.each do |vehicle|
@@ -128,6 +127,9 @@ class Vehicle < ActiveRecord::Base
 			puts "Auction ID: "+auctionID.to_s+" had "+auction_results.count.to_s+" results; currently at "+all_auction_results.count.to_s+" of ~26017"
 		end
 		
+		#Only used to get "trim" and any other fields for user selection
+		all_auction_results = getCarGuruSelections(all_auction_results)
+
 		return all_auction_results
 
 	end
@@ -136,7 +138,7 @@ class Vehicle < ActiveRecord::Base
 		require 'open-uri'
 
 		data_id = getDataId(auctionID)
-		puts data_id
+		# puts data_id
 
 		auction_results = []
 		current_query_results = [1]
@@ -151,7 +153,7 @@ class Vehicle < ActiveRecord::Base
 
 		while !current_query_results.empty?  do
 			url_to_scrap = "https://www.rbauction.com/rba-api/search/results/advanced?rbasq="+data_id.to_s+"&offset="+offset.to_s+"&count="+count.to_s+"&ccb=USD"
-			puts url_to_scrap
+			# puts url_to_scrap
 
 			# cookie = "COOKIE_SUPPORT=true; CURRENT_ACCOUNT_INDEX_e77otaYymVmLZAEy2bwiKw%3D%3D=8468652; LB_STICKY=1388769470224; dtCookie=94605B61D5D6D317224A5A6A6EE1DF9A|www.rbauction|1; cbInd=1; cbArg=1; JSESSIONID=FE6220FE420DB95F5C65743905B6066F; CHICKEN_RUN=clisyasjolddyadaidol; COMPANY_ID=10106; ID=7851774653425a7939574b73534a4631685148464a413d3d; PASSWORD=62625477514a756843546a3149724a7a387a324c685846527678494e707746546e3846566b523171415a383d; REMEMBER_ME=true; LOGIN=6a61636f6273696464616c6c407961686f6f2e636f6d; SCREEN_NAME=3239354571756a674f587a6e707862552f6d6757324f6149414b5a4234563438496b5530395750716e38314f36387a4c7468473078726e7a5a5363466a3635376b794e7763576b514e784b6833617a5933354348446e6867693546784f546654; RING_WELL=odlolibbascjmoaoloam; mdr_browser=yes; __CT_Data=gpv=150&apv_130_www09=150; WRUID=0; __utma=41976678.1956085287.1388203413.1388797367.1388811303.17; __utmb=41976678.1.10.1388811303; __utmc=41976678; __utmz=41976678.1388784256.15.5.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not%20provided); __utmli=yui_3_4_0_5_1388811303351_338; dtPC=190510472_927#_load_; GUEST_LANGUAGE_ID=en_US; GUEST_COUNTRY=United+States; GUEST_LANGUAGE=English; GUEST_FLAG=us"
 			cookie = "COOKIE_SUPPORT=true; CURRENT_ACCOUNT_INDEX_e77otaYymVmLZAEy2bwiKw%3D%3D=8468652; LB_STICKY=1388769470224; dtCookie=94605B61D5D6D317224A5A6A6EE1DF9A|www.rbauction|1; cbInd=1; cbArg=1; JSESSIONID=BB26D5486400BD663A0D5037F8C560E0; CHICKEN_RUN=lahmdciadajsbjaisoad; COMPANY_ID=10106; ID=7851774653425a7939574b73534a4631685148464a413d3d; PASSWORD=62625477514a756843546a3149724a7a387a324c685846527678494e707746546e3846566b523171415a383d; REMEMBER_ME=true; LOGIN=6a61636f6273696464616c6c407961686f6f2e636f6d; SCREEN_NAME=3239354571756a674f587a6e707862552f6d6757324f6149414b5a4234563438496b5530395750716e38314f36387a4c7468473078726e7a5a5363466a3635376b794e7763576b514e784b6833617a5933354348446e6867693546784f546654; RING_WELL=mllhodoochllacyloosc; __utma=41976678.1956085287.1388203413.1389040003.1389127806.19; __utmb=41976678.23.10.1389127806; __utmc=41976678; __utmz=41976678.1389127806.19.7.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not%20provided); GUEST_LANGUAGE_ID=en_US; GUEST_COUNTRY=United+States; GUEST_LANGUAGE=English; GUEST_FLAG=us; __CT_Data=gpv=194&apv_130_www09=194; WRUID=0; dtPC=509688373_726#_load_; __utmli=yui_3_4_0_1_1389130488557_26"
@@ -193,9 +195,6 @@ class Vehicle < ActiveRecord::Base
 		    vehicle.save
 		end
 	end
-
-
-
 
 	def getDataId(auctionID)
 
@@ -259,5 +258,21 @@ class Vehicle < ActiveRecord::Base
 
 		data_id = JSON.parse(json)['rbasq']
 		# puts data_id
+	end
+
+	# function used to scrape CarGuru and get possible TRIM values (from there I will run the query)
+	def getCarGuruSelections(all_auction_results)
+		require 'nokogiri'
+		require 'open-uri'
+
+		all_auction_results.each do |vehicle|
+
+# have to do something about bad URLs and vins
+
+			url = "http://www.cargurus.com/Cars/instantMarketValueFromVIN.action?startUrl=%2F&carDescription.vin=#{vehicle["sn"]}"
+			doc = Nokogiri::HTML(open(url))
+			puts doc
+		end
+
 	end
 end

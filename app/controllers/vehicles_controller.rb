@@ -5,6 +5,7 @@ class VehiclesController < ApplicationController
   # GET /vehicles.json
   def index
     # @vehicles = Vehicle.all
+    @vehicle = Vehicle.new
 
     vehicle = Vehicle.new
     @scraped_page = vehicle.getAllVehiclesAndBuses
@@ -61,6 +62,17 @@ class VehiclesController < ApplicationController
     respond_to do |format|
       format.html { redirect_to vehicles_url }
       format.json { head :no_content }
+    end
+  end
+
+  def valuation1
+
+    vehicle = Vehicle.new
+    @valuation1 = vehicle.getValuation1value(params[:trim], params[:vin]).to_s
+    @vehicleID = params[:vehicleID]
+
+    respond_to do |format|
+        format.js
     end
   end
 

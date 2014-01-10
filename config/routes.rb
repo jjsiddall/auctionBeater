@@ -1,5 +1,10 @@
 AuctionBeater::Application.routes.draw do
-  resources :vehicles
+  resources :vehicles do
+    collection do
+      #used for lesson building
+      post 'valuation1'
+    end
+  end
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

@@ -50,3 +50,9 @@ end
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+
+# Trying out charting gems...
+# gem "chartkick"
+# gem "highcharts-rails"
+# gem 'flot-rails', :git => "https://github.com/Kjarrigan/flot-rails.git"
+gem 'lazy_high_charts'

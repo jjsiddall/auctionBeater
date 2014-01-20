@@ -1,8 +1,9 @@
 AuctionBeater::Application.routes.draw do
   resources :vehicles do
     collection do
-      #used for lesson building
       post 'valuation1'
+      get 'anomalies'
+      get 'admin'
     end
   end
 

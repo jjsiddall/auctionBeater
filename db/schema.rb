@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140106211401) do
+ActiveRecord::Schema.define(version: 20140120033432) do
 
   create_table "vehicles", force: true do |t|
     t.string   "name"
@@ -22,8 +22,8 @@ ActiveRecord::Schema.define(version: 20140106211401) do
     t.string   "auction_location"
     t.date     "auction_date"
     t.string   "meter"
-    t.string   "price_usd"
-    t.string   "price_other"
+    t.integer  "price_usd",        limit: 255
+    t.integer  "price_other",      limit: 255
   end
 
 end

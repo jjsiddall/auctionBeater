@@ -11,6 +11,18 @@ class VehiclesController < ApplicationController
     @scraped_page = vehicle.getAllVehiclesAndBuses
   end
 
+  # GET /anomalies
+  def anomalies
+    @vehicles = Vehicle.all
+  end
+
+  # GET /admin
+  def admin
+    @vehicles = Vehicle.all
+    # vehicle = Vehicle.new
+    # @saved_vehicles = vehicle.getAllVehiclesAndBuses
+  end
+
   # GET /vehicles/1
   # GET /vehicles/1.json
   def show

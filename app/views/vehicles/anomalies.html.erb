@@ -1,0 +1,17 @@
+
+<% @vehicles.each do |vehicle| %>
+
+	<% similar_vehicles = vehicle.getSimilarVehicles %>
+	
+	<%= vehicle.name %>,<%= vehicle.price_usd %>,<%= similar_vehicles.count %>,<%= similar_vehicles.maximum(:price_usd) %>,<%= average_price = similar_vehicles.average(:price_usd) %>,<%= similar_vehicles.minimum(:price_usd) %>,<%= vehicle.auction_location %>,<%= vehicle.auction_date %>,
+
+	<% if vehicle.price_usd < average_price %>
+		good purchase
+	<% else %>
+		bad purchase
+	<% end %>
+
+	<br>
+
+<% end %>
+

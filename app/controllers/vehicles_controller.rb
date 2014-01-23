@@ -19,6 +19,9 @@ class VehiclesController < ApplicationController
   # GET /admin
   def admin
     @vehicles = Vehicle.all
+
+    #commented out so that I don't pull all the data again accidentally
+
     # vehicle = Vehicle.new
     # @saved_vehicles = vehicle.getAllVehiclesAndBuses
   end

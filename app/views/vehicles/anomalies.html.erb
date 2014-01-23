@@ -1,15 +1,23 @@
 
-<% @vehicles.each do |vehicle| %>
+<%= @vehicles.where(:good_purchase => true).count %><br>
+<%= bar_chart @vehicles.group(:auction_location).where(:good_purchase => true).count %><br>
+<%= bar_chart @vehicles.group(:auction_date).where(:good_purchase => true).count %><br>
+
+
+
+<% @vehicles.first(2).each do |vehicle| %>
 
 	<% similar_vehicles = vehicle.getSimilarVehicles %>
 	
-	<%= vehicle.name %>,<%= vehicle.price_usd %>,<%= similar_vehicles.count %>,<%= similar_vehicles.maximum(:price_usd) %>,<%= average_price = similar_vehicles.average(:price_usd) %>,<%= similar_vehicles.minimum(:price_usd) %>,<%= vehicle.auction_location %>,<%= vehicle.auction_date %>,
-
-	<% if vehicle.price_usd < average_price %>
-		good purchase
-	<% else %>
-		bad purchase
-	<% end %>
+	<%= vehicle.name %>
+	,<%= vehicle.price_usd %>
+	,<%= similar_vehicles.count %>
+	,<%= similar_vehicles.maximum(:price_usd) %>
+	,<%= average_price = similar_vehicles.average(:price_usd) %>
+	,<%= similar_vehicles.minimum(:price_usd) %>
+	,<%= vehicle.auction_location.split(",").join(" ") %>
+	,<%= vehicle.auction_date %>
+	,<%= vehicle.good_purchase %>
 
 	<br>
 

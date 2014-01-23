@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140120033432) do
+ActiveRecord::Schema.define(version: 20140120044228) do
 
   create_table "vehicles", force: true do |t|
     t.string   "name"
@@ -24,6 +24,7 @@ ActiveRecord::Schema.define(version: 20140120033432) do
     t.string   "meter"
     t.integer  "price_usd",        limit: 255
     t.integer  "price_other",      limit: 255
+    t.boolean  "good_purchase",                default: false
   end
 
 end

@@ -11,7 +11,6 @@
               <%= vehicle["name"] %>
               <%= vehicle["meter"] %>
               <%= vehicle["cw"] %>
-<!--               <%= link_to "Car Guru", "http://www.cargurus.com/Cars/instantMarketValueFromVIN.action?startUrl=%2F&carDescription.vin=#{vehicle["sn"]}", :class =>'btn btn-default btn-xs pull-right' %> -->
             </a>
           </h4>
         </div>
@@ -36,15 +35,15 @@
                 <div class="col-md-2">Mileage</div>
               </div>
               <div class="row">
-                <div class="col-md-2">Min: <%= number_to_currency(past_vehicles.first.minPrice(vehicle["name"])) %></div>
+                <div class="col-md-2">Min: <%= number_to_currency(past_vehicles.minimum(:price_usd)) %></div>
                 <div class="col-md-2">Min: <%= past_vehicles.minimum(:meter) %></div>
               </div>
               <div class="row">
-                <div class="col-md-2">Avg: <%= number_to_currency(past_vehicles.first.averagePrice(vehicle["name"])) %></div>
+                <div class="col-md-2">Avg: <%= number_to_currency(past_vehicles.average(:price_usd)) %></div>
                 <div class="col-md-2">Avg: <%= past_vehicles.average(:meter) %></div>
               </div>
               <div class="row">
-                <div class="col-md-2">Max: <%= number_to_currency(past_vehicles.first.maxPrice(vehicle["name"])) %></div>
+                <div class="col-md-2">Max: <%= number_to_currency(past_vehicles.maximum(:price_usd)) %></div>
                 <div class="col-md-2">Max: <%= past_vehicles.maximum(:meter) %></div>
               </div>
             <% end %>                
@@ -54,12 +53,7 @@
                 <% series_a = [] %>
                 <% past_vehicles.each do |past_vehicle| %>  
                   <div class="col-md-4"><%= past_vehicle.auction_date %></div>
-                  <% if past_vehicle.price_usd.include?("USD") %>
-                    <% currency_value = past_vehicle.price_usd.to_i %>
-                  <% else %>
-                    <% currency_value = past_vehicle.price_other.to_i %>
-                  <% end %>
-                  <div class="col-md-4"><%= currency_value %></div>
+                  <div class="col-md-4"><%= currency_value = past_vehicle.price_usd %></div>
                   <div class="col-md-4"><%= past_vehicle.meter %></div>
                   <% series_a << [past_vehicle.meter.to_i, currency_value] %>
                 <% end %>

@@ -1,59 +1,67 @@
 class Vehicle < ActiveRecord::Base
+	
 	def use_test_data 
     	use_test_data = true      
+  	end	
+  	def get_current_vehicles 
+    	get_current_vehicles = true      
   	end
-	def averagePrice(name)
-		totalPrice = 0
-		vehicles = Vehicle.where("name like ?", "%#{name}%") 
-		vehicles.each do |vehicle|
-			if vehicle.price_usd.include?("USD")
-				totalPrice = totalPrice + vehicle.price_usd.to_i
-			else
-				totalPrice = totalPrice + vehicle.price_other.to_i
-			end
-		end
-		return totalPrice/vehicles.count
-	end	
-	def maxPrice(name)
-		
-		maxPrice = 0
-		vehicles = Vehicle.where("name like ?", "%#{name}%") 
-		vehicles.each do |vehicle|
-			if vehicle.price_usd.include?("USD")
-				if maxPrice < vehicle.price_usd.to_i
-					maxPrice = vehicle.price_usd.to_i
-				end
-			else
-				if maxPrice < vehicle.price_other.to_i
-					maxPrice = vehicle.price_other.to_i
-				end
-			end
-		end
-		return maxPrice
-	end	
-	def minPrice(name)
-		
-		minPrice = 999999
-		vehicles = Vehicle.where("name like ?", "%#{name}%") 
-		vehicles.each do |vehicle|
-			if vehicle.price_usd.include?("USD")
-				if minPrice > vehicle.price_usd.to_i
-					minPrice = vehicle.price_usd.to_i
-				end
-			else
-				if minPrice > vehicle.price_other.to_i
-					minPrice = vehicle.price_other.to_i
-				end
-			end
-		end
-		return minPrice
-	end
 
+	# def averagePrice(name)
+	# 	totalPrice = 0
+	# 	vehicles = Vehicle.where("name like ?", "%#{name}%") 
+	# 	vehicles.each do |vehicle|
+	# 		if vehicle.price_usd.include?("USD")
+	# 			totalPrice = totalPrice + vehicle.price_usd.to_i
+	# 		else
+	# 			totalPrice = totalPrice + vehicle.price_other.to_i
+	# 		end
+	# 	end
+	# 	return totalPrice/vehicles.count
+	# end	
+	# def maxPrice(name)
+		
+	# 	maxPrice = 0
+	# 	vehicles = Vehicle.where("name like ?", "%#{name}%") 
+	# 	vehicles.each do |vehicle|
+	# 		if vehicle.price_usd.include?("USD")
+	# 			if maxPrice < vehicle.price_usd.to_i
+	# 				maxPrice = vehicle.price_usd.to_i
+	# 			end
+	# 		else
+	# 			if maxPrice < vehicle.price_other.to_i
+	# 				maxPrice = vehicle.price_other.to_i
+	# 			end
+	# 		end
+	# 	end
+	# 	return maxPrice
+	# end	
+	# def minPrice(name)
+		
+	# 	minPrice = 999999
+	# 	vehicles = Vehicle.where("name like ?", "%#{name}%") 
+	# 	vehicles.each do |vehicle|
+	# 		if vehicle.price_usd.include?("USD")
+	# 			if minPrice > vehicle.price_usd.to_i
+	# 				minPrice = vehicle.price_usd.to_i
+	# 			end
+	# 		else
+	# 			if minPrice > vehicle.price_other.to_i
+	# 				minPrice = vehicle.price_other.to_i
+	# 			end
+	# 		end
+	# 	end
+	# 	return minPrice
+	# end
+	
 	def getAllVehiclesAndBuses
 		all_auction_results = []
 		auction_results = []
 
-		auctionIDs = [4294503638]
+		if get_current_vehicles
+			auctionIDs = [4294503638]
+		else
+		 	auctionIDs = [4293991126]
 		# auctionIDs = [4293984121,4293984129,4293984039,4293984236,4293985848,4293985336,4293985846,4293985925,4293988744,
 		# 	4293988768,4293991276,4293991126,4293991141,4293991460,4293992792,4293992934,4293992795,4293992929,4293993408,
 		# 	4293994033,4293994913,4293995045,4293997358,4293997347,4293997349,4293998889,4293998699,4293998249,4294000283,
@@ -123,6 +131,7 @@ class Vehicle < ActiveRecord::Base
 		# 	4294214478,4294214755,4294215173,4294215525,4294216590,4294216545,4294217043,4294217376,4294218929,4294218455,
 		# 	4294219532,4294220636,4294220328,4294221102,4294221304,4294221749,4294223223,4294222511,4294223254,4294223916,
 		# 	4294226385,4294227006,4294227383]
+		end
 
 		auctionIDs.each do |auctionID|
 			auction_results = getVehicles(auctionID.to_s)
@@ -190,7 +199,7 @@ class Vehicle < ActiveRecord::Base
 		end
 		
 		## here is where we call the function to save vehicles ONLY do this for historical items
-		# saveVehiclesToDB(auction_results)
+		#saveVehiclesToDB(auction_results)
 
 		return auction_results
 	end
@@ -201,14 +210,20 @@ class Vehicle < ActiveRecord::Base
 		auction_results.each do |result|
 			vehicle = Vehicle.new
 
-			vehicle.name = result["name"]
+			vehicle.name = result["name"].upcase.split(" ").uniq.join(" ")
 			vehicle.richie_id = result["id"]
 		    vehicle.auction_location = result["auction"]["name"]
 		    vehicle.auction_date = DateTime.parse(result["auction"]["date"])
 		    vehicle.meter = result["meter"]
-		    vehicle.price_usd = result["price"]["sale"]
-		    vehicle.price_other = result["price"]["foreign"]
-		    
+		    if result["price"]["sale"].include?("USD")
+			    vehicle.price_usd = result["price"]["sale"]
+			    vehicle.price_other = result["price"]["foreign"]
+			    puts "sale is USD"
+			else
+			    vehicle.price_usd = result["price"]["foreign"].to_i
+			    vehicle.price_other = result["price"]["sale"].to_i
+			    puts "sale is not USD"
+			end    
 		    vehicle.save
 		end
 	end
@@ -217,14 +232,19 @@ class Vehicle < ActiveRecord::Base
 
 		require 'open-uri'
 
-		# #Current Inventory
-		# get?indexName=ci
-		# &dropSelectIndustry=4294747050
+		if get_current_vehicles
+			vehicle_type_selection = "4294747050"
+			selection_type = "ci"
+		else
+			vehicle_type_selection = "4294237252"
+			selection_type = "ar"
+		end
+
 		url_request_for_data_id = "https://www.rbauction.com/rba-api/rbasq/
-			get?indexName=ci
+			get?indexName="+selection_type+"
 			&locale=en
 			&txtSelectKeywords=
-			&dropSelectIndustry=4294747050
+			&dropSelectIndustry="+vehicle_type_selection+"
 			&dropSelectCategory=
 			&dropSelectMasterCategory=
 			&dropSelectRegion=
@@ -243,33 +263,6 @@ class Vehicle < ActiveRecord::Base
 			&txtSelectManuYearStart=
 			&txtSelectManuYearEnd="
 
-
-		# #Historical Inventory
-		# 	get?indexName=ar
-		# 	&dropSelectIndustry=4294237252
-
-		# url_request_for_data_id = "https://www.rbauction.com/rba-api/rbasq/
-		# 	get?indexName=ar
-		#	&locale=en
-		# 	&txtSelectKeywords=
-		# 	&dropSelectIndustry=4294747050
-		# 	&dropSelectCategory=
-		# 	&dropSelectMasterCategory=
-		# 	&dropSelectRegion=
-		# 	&dropSelectAuction="+auctionID+"
-		# 	&txtSelectMake=
-		# 	&txtSelectModel=
-		# 	&makeDimId=
-		# 	&modelDimId=
-		# 	&txtSelectLotStart=
-		# 	&txtSelectLotEnd=
-		# 	&txtSerialNo=
-		# 	&dropSelectPriceStart=USD
-		# 	&txtSelectPriceStart=
-		# 	&txtSelectPriceEnd=
-		# 	&dropSelectDate=
-		# 	&txtSelectManuYearStart=
-		# 	&txtSelectManuYearEnd="
 
 		# puts url_request_for_data_id.gsub(/\s+/, "")
 
@@ -383,5 +376,12 @@ class Vehicle < ActiveRecord::Base
 
 	def getSimilarVehicles
 		Vehicle.where("name like ?", self.name)
+	end
+	def good_purchase?
+		similar_vehicles = self.getSimilarVehicles
+		if self.price_usd < similar_vehicles.average(:price_usd)
+			self.good_purchase = true
+			self.save
+		end
 	end
 end

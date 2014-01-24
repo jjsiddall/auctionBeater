@@ -18,7 +18,8 @@ class VehiclesController < ApplicationController
 
   # GET /admin
   def admin
-    @vehicles = Vehicle.all
+    vehicle = Vehicle.new
+    @historicalData2 = vehicle.historicalData2
 
     #commented out so that I don't pull all the data again accidentally
 

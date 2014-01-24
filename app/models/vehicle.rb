@@ -352,6 +352,7 @@ class Vehicle < ActiveRecord::Base
 	def getValuation1value(trim, vin)
 
 		require 'nokogiri'
+		require 'open-uri'
 
 		url_for_valuation_1 = 'http://www.cargurus.com
 			/Cars
@@ -372,6 +373,24 @@ class Vehicle < ActiveRecord::Base
 			valuation1 = doc.css(".instantMarketValue").text;
 		end
 		return valuation1
+	end
+
+	def historicalData2
+
+		require 'nokogiri'
+		require 'open-uri'
+
+		historical_data_2_url = 'http://www.ironplanet.com/jsp/s/search.ips?ct=13&sm=0&l2=USA#pstart=20&ct=13&sm=0&l2=USA'
+			
+		doc = Nokogiri::HTML(open(historical_data_2_url))
+
+		doc.css('.sr_item').each do |item, index|
+			name = item.at_css(".sr_grid_equip_desc").text
+			price_usd = item.at_css(".sr_grid_price").text
+			price_usd = item.at_css(".meter_reading").text
+			puts index.to_s+". "+name+" "+price_usd
+		end
+	
 	end
 
 	def getSimilarVehicles

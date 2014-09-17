@@ -1,0 +1,686 @@
+4293967063:Kansas City, MO - Mar 19, 2014
+4293968782:St Aubin Sur Gaillon, FRA - Mar 18, 2014
+4293968643:Nashville, TN - Mar 18, 2014
+4293968691:Montreal, QC - Mar 18, 2014
+4293968605:Denver, CO - Mar 18, 2014
+4293968312:Brisbane, AUS - Mar 18, 2014
+4293970442:Caorso, ITA - Mar 14, 2014
+4293970287:Albuquerque, NM - Mar 14, 2014
+4293972362:Meppen, DEU - Mar 13, 2014
+4293972179:Fort Worth, TX - Mar 13, 2014
+4293972216:Columbus, OH - Mar 13, 2014
+4293972732:Mexico National Auction - Mar 12, 2014
+4293973264:Ocana / Moncofa, ESP - Mar 11, 2014
+4293974296:Las Vegas, NV - Mar 6, 2014
+4293976475:Moerdijk, NLD - Feb 27, 2014
+4293976638:Edmonton, AB - Feb 26, 2014
+4293976852:Donington Park, UK - Feb 25, 2014
+4293980035:Orlando, FL - Feb 17, 2014
+4293980967:Tipton, CA - Feb 14, 2014
+4293982413:Phoenix, AZ - Feb 12, 2014
+4293983088:Houston, TX - Feb 5, 2014
+4293983206:Cim Charity Auction - Jan 22, 2014
+4293984121:St. Louis, MO - Dec 19, 2013
+4293984129:Raleigh-Durham, NC - Dec 19, 2013
+4293984039:Chehalis, WA - Dec 19, 2013
+4293984236:Prince George, BC - Dec 18, 2013
+4293985848:Truro, NS - Dec 17, 2013
+4293985336:Sacramento, CA - Dec 17, 2013
+4293985846:North East, MD - Dec 17, 2013
+4293985925:Dubai, ARE - Dec 17, 2013
+4293988744:Los Angeles, CA - Dec 13, 2013
+4293988768:Chicago, IL - Dec 13, 2013
+4293991276:Moerdijk, NLD - Dec 12, 2013
+4293991126:Edmonton, AB - Dec 12, 2013
+4293991141:Denver, CO - Dec 12, 2013
+4293991460:Nashville, TN - Dec 11, 2013
+4293992792:Salt Lake City, UT - Dec 10, 2013
+4293992934:Minneapolis, MN - Dec 10, 2013
+4293992795:Mexico National Auction - Dec 10, 2013
+4293992929:Manchester, NH - Dec 10, 2013
+4293993408:Caorso, ITA - Dec 10, 2013
+4293994033:Toronto, ON - Dec 9, 2013
+4293994913:Kansas City, MO - Dec 6, 2013
+4293995045:Donington Park, UK - Dec 6, 2013
+4293997358:Montreal, QC - Dec 5, 2013
+4293997347:Lisbon, PRT - Dec 5, 2013
+4293997349:Columbus, OH - Dec 5, 2013
+4293998889:Ocana / Moncofa, ESP - Dec 4, 2013
+4293998699:Fort Worth, TX - Dec 4, 2013
+4293998249:Chilliwack, BC - Dec 4, 2013
+4294000283:St Aubin Sur Gaillon, FRA - Dec 3, 2013
+4294000306:Saskatoon, SK - Dec 3, 2013
+4294000295:Atlanta, GA - Dec 3, 2013
+4294001368:Moose Jaw, SK - Nov 28, 2013
+4294001936:Brisbane, AUS - Nov 28, 2013
+4294002687:Panama City, PAN - Nov 26, 2013
+4294002699:Grande Prairie, AB - Nov 26, 2013
+4294003147:Geelong, AUS - Nov 26, 2013
+4294002672:Fredericton, NB - Nov 26, 2013
+4294003637:Spain Timed Auction - Nov 22, 2013
+4294003619:Las Vegas, NV - Nov 22, 2013
+4294006326:Meppen, DEU - Nov 21, 2013
+4294005305:Cedar Bluff, VA - Nov 21, 2013
+4294006322:Beijing, CHN - Nov 21, 2013
+4294006957:Tipton, CA - Nov 20, 2013
+4294007102:Pittsburgh, PA - Nov 20, 2013
+4294007129:Houston, TX - Nov 20, 2013
+4294007615:Phoenix, AZ - Nov 19, 2013
+4294007662:Charleston, WV - Nov 19, 2013
+4294007856:Indianapolis, IN - Nov 15, 2013
+4294008250:Lyon, FRA - Nov 14, 2013
+4294008108:Lethbridge, AB - Nov 14, 2013
+4294008414:Farmington (87401), NM - Nov 14, 2013
+4294009148:Lincoln, NE - Nov 13, 2013
+4294009320:Farmington (87413), NM - Nov 13, 2013
+4294009637:Twin Falls, ID - Nov 8, 2013
+4294009800:Williston, ND - Nov 7, 2013
+4294009928:Richmond, VA - Nov 6, 2013
+4294010195:Regina, SK - Nov 5, 2013
+4294010341:Bozeman, MT - Oct 31, 2013
+4294011759:Wynyard, SK - Oct 30, 2013
+4294013515:Munich, DEU - Oct 29, 2013
+4294013260:Edmonton, AB - Oct 29, 2013
+4294013744:Lloydminster, AB - Oct 28, 2013
+4294013299:Hodgeville, SK - Oct 28, 2013
+4294013783:Dundurn, SK - Oct 26, 2013
+4294013852:Spirit River, AB - Oct 25, 2013
+4294013899:Cincinnati, OH - Oct 25, 2013
+4294015160:Shreveport (Sibley), LA - Oct 24, 2013
+4294014726:Orlando, FL - Oct 24, 2013
+4294013994:Iron Springs, AB - Oct 24, 2013
+4294015222:Dysart, SK - Oct 23, 2013
+4294015955:Chehalis, WA - Oct 23, 2013
+4294016909:North East, MD - Oct 22, 2013
+4294016973:Fawcett, AB - Oct 22, 2013
+4294016163:El Paso, TX - Oct 22, 2013
+4294017057:Lewvan, SK - Oct 21, 2013
+4294017002:Crystal City, MB - Oct 21, 2013
+4294017201:Westlock, AB - Oct 19, 2013
+4294017128:Sedley, SK - Oct 19, 2013
+4294017095:Rossburn, MB - Oct 19, 2013
+4294017248:Sexsmith, AB - Oct 18, 2013
+4294017726:Sacramento, CA - Oct 18, 2013
+4294017752:Roblin, MB - Oct 18, 2013
+4294018095:Ottawa, ON - Oct 17, 2013
+4294019209:Onanole, MB - Oct 17, 2013
+4294019366:Lexington, KY - Oct 17, 2013
+4294019395:Kamsack, SK - Oct 17, 2013
+4294019403:Hammond, LA - Oct 17, 2013
+4294018924:Chilliwack, BC - Oct 17, 2013
+4294020528:Los Angeles, CA - Oct 16, 2013
+4294020559:Angusville, MB - Oct 16, 2013
+4294020627:Estevan, SK - Oct 12, 2013
+4294020957:Manchester, NH - Oct 11, 2013
+4294021126:Ludlow, MA - Oct 10, 2013
+4294021551:Prince George, BC - Oct 9, 2013
+4294022611:St Aubin Sur Gaillon, FRA - Oct 8, 2013
+4294022280:Saskatoon, SK - Oct 8, 2013
+4294022693:Towanda, PA - Oct 4, 2013
+4294027264:Chicago, IL - Oct 3, 2013
+4294026509:Caorso, ITA - Oct 3, 2013
+4294028304:Grande Prairie, AB - Oct 2, 2013
+4294028564:Kansas City, MO - Oct 1, 2013
+4294027605:Dubai, ARE - Oct 1, 2013
+4294028439:Donington Park, UK - Oct 1, 2013
+4294028747:Raleigh-Durham, NC - Sep 30, 2013
+4294029945:Wasilla (Anchorage), AK - Sep 28, 2013
+4294030203:Minneapolis, MN - Sep 27, 2013
+4294032457:Tipton, CA - Sep 26, 2013
+4294032571:Swan River, MB - Sep 26, 2013
+4294029612:Moerdijk, NLD - Sep 26, 2013
+4294032823:Tampere, FIN - Sep 25, 2013
+4294031287:Montreal, QC - Sep 25, 2013
+4294032250:Fort Worth, TX - Sep 25, 2013
+4294033190:Nashville, TN - Sep 24, 2013
+4294033351:Albuquerque, NM - Sep 24, 2013
+4294033027:Rapides-Des-Joachims, QC - Sep 23, 2013
+4294035142:Truro, NS - Sep 20, 2013
+4294034826:Reno, NV - Sep 20, 2013
+4294034764:Atlanta, GA - Sep 20, 2013
+4294035905:St. Louis, MO - Sep 19, 2013
+4294034425:Ocana / Moncofa, ESP - Sep 19, 2013
+4294035605:Oakville, ON - Sep 19, 2013
+4294036195:Brisbane, AUS - Sep 19, 2013
+4294037429:Phoenix, AZ - Sep 18, 2013
+4294036853:Toronto, ON - Sep 17, 2013
+4294037681:Geelong, AUS - Sep 17, 2013
+4294038186:Denver, CO - Sep 12, 2013
+4294038551:Columbus, OH - Sep 12, 2013
+4294038756:Mexico National Auction - Sep 11, 2013
+4294039219:St. Johns, NL - Sep 10, 2013
+4294039132:Salt Lake City, UT - Sep 10, 2013
+4294040876:Edmonton, AB - Sep 4, 2013
+4294042624:North East, MD - Aug 29, 2013
+4294042147:Houston, TX - Aug 28, 2013
+4294042783:Medford, OR - Aug 23, 2013
+4294043477:Los Angeles, CA - Aug 22, 2013
+4294043720:Charleston, WV - Aug 21, 2013
+4294044116:Sacramento, CA - Aug 20, 2013
+4294044281:Las Vegas, NV - Aug 16, 2013
+4294044588:Orlando, FL - Aug 15, 2013
+4294044737:Hillsville, VA - Aug 14, 2013
+4294044816:Cherry Point, AB - Aug 13, 2013
+4294045022:Keg River, AB - Aug 10, 2013
+4294044887:Grandview, MB - Aug 10, 2013
+4294045083:Wolseley, SK - Aug 9, 2013
+4294045205:Girouxville, AB - Aug 9, 2013
+4294045422:Williston, ND - Aug 8, 2013
+4294045566:Thorhild, AB - Aug 8, 2013
+4294046132:Sexsmith, AB - Aug 7, 2013
+4294046054:Saskatoon, SK - Aug 7, 2013
+4294046478:Chicago, IL - Aug 1, 2013
+4294046727:Minitonas, MB - Jul 31, 2013
+4294046624:Jasper, AL - Jul 31, 2013
+4294046936:Kansas City, MO - Jul 30, 2013
+4294047847:Fort Worth, TX - Jul 24, 2013
+4294048311:Chilliwack, BC - Jul 24, 2013
+4294048834:Chehalis, WA - Jul 23, 2013
+4294048896:Panama City, PAN - Jul 19, 2013
+4294049255:Grand Falls, NB - Jul 19, 2013
+4294049616:Lethbridge, AB - Jul 18, 2013
+4294049888:Truro, NS - Jul 17, 2013
+4294050115:Prince George, BC - Jul 17, 2013
+4294050868:Regina, SK - Jul 16, 2013
+4294050359:Donington Park, UK - Jul 16, 2013
+4294051386:Montreal, QC - Jul 11, 2013
+4294051929:Caorso, ITA - Jul 11, 2013
+4294052439:Toronto, ON - Jul 9, 2013
+4294052700:Munich, DEU - Jul 9, 2013
+4294052811:Lyon, FRA - Jul 5, 2013
+4294052929:Southey, SK - Jul 4, 2013
+4294053178:Singapore, SGP - Jul 2, 2013
+4294053138:Narita, JPN - Jul 2, 2013
+4294053101:Dubai, ARE - Jul 2, 2013
+4294053474:St. Louis, MO - Jun 28, 2013
+4294055776:Spalding, SK - Jun 27, 2013
+4294053875:Minton, SK - Jun 27, 2013
+4294055764:Minneapolis, MN - Jun 27, 2013
+4294054115:Mexico National Auction - Jun 27, 2013
+4294056124:Brisbane, AUS - Jun 27, 2013
+4294055420:Atlanta, GA - Jun 27, 2013
+4294056354:Weldon, SK - Jun 26, 2013
+4294055096:Grande Prairie, AB - Jun 26, 2013
+4294056253:Glenbain, SK - Jun 26, 2013
+4294056315:Davis, WV - Jun 26, 2013
+4294056854:Raleigh-Durham, NC - Jun 25, 2013
+4294057203:Geelong, AUS - Jun 25, 2013
+4294056589:El Paso, TX - Jun 25, 2013
+4294057739:Saskatoon, SK - Jun 24, 2013
+4294057874:Oakburn, MB - Jun 22, 2013
+4294057986:Abbey, SK - Jun 22, 2013
+4294058271:Grenfell, SK - Jun 21, 2013
+4294058076:Bozeman, MT - Jun 21, 2013
+4294058737:Winnipeg, MB - Jun 20, 2013
+4294058821:Lisbon, PRT - Jun 20, 2013
+4294059272:Columbus, OH - Jun 20, 2013
+4294060345:Lloydminster, SK - Jun 19, 2013
+4294060145:Houston, TX - Jun 19, 2013
+4294062275:St Aubin Sur Gaillon, FRA - Jun 18, 2013
+4294061854:Phoenix, AZ - Jun 18, 2013
+4294061456:Hartford, CT - Jun 18, 2013
+4294062343:Fillmore, SK - Jun 18, 2013
+4294062474:Wolseley, SK - Jun 17, 2013
+4294061354:Niagara Falls, ON - Jun 17, 2013
+4294062711:Wembley, AB - Jun 15, 2013
+4294063150:Oyen, AB - Jun 15, 2013
+4294062838:Estevan, SK - Jun 15, 2013
+4294063226:Arran, SK - Jun 15, 2013
+4294062946:Hythe, AB - Jun 14, 2013
+4294063708:Denver, CO - Jun 14, 2013
+4294064765:Benson, SK - Jun 14, 2013
+4294066775:Tipton, CA - Jun 13, 2013
+4294067041:Oungre, SK - Jun 13, 2013
+4294066406:Nashville, TN - Jun 13, 2013
+4294064636:Moerdijk, NLD - Jun 13, 2013
+4294067069:Lloydminster, SK - Jun 13, 2013
+4294066909:Canora, SK - Jun 13, 2013
+4294067286:Sintaluta, SK - Jun 12, 2013
+4294067205:Peace River, AB - Jun 12, 2013
+4294066191:Edmonton, AB - Jun 12, 2013
+4294068164:Salt Lake City, UT - Jun 11, 2013
+4294067413:Okotoks, AB - Jun 11, 2013
+4294067497:Lampman, SK - Jun 11, 2013
+4294067754:High Level, AB - Jun 11, 2013
+4294068374:Nampa, AB - Jun 10, 2013
+4294068454:Carlyle, SK - Jun 10, 2013
+4294069989:Sylmar, CA - Jun 7, 2013
+4294069845:Ocana / Moncofa, ESP - Jun 6, 2013
+4294070976:Los Angeles, CA - Jun 6, 2013
+4294070275:Detroit, MI - Jun 6, 2013
+4294072120:Sacramento, CA - Jun 4, 2013
+4294071493:North East, MD - Jun 4, 2013
+4294072868:Meppen, DEU - Jun 4, 2013
+4294073183:Las Vegas, NV - May 31, 2013
+4294073742:Joliet, IL - May 31, 2013
+4294074205:Perth, AUS - May 30, 2013
+4294074142:Chicago, IL - May 30, 2013
+4294074680:Chilliwack, BC - May 29, 2013
+4294075021:Wetaskiwin, AB - May 25, 2013
+4294076411:San Antonio, TX - May 23, 2013
+4294076227:Montreal, QC - May 22, 2013
+4294076456:Charleston, WV - May 22, 2013
+4294077434:Orlando, FL - May 16, 2013
+4294077022:Chehalis, WA - May 16, 2013
+4294077811:Prince George, BC - May 15, 2013
+4294078261:Clendenin, WV - May 14, 2013
+4294078513:Farmington, NM - May 10, 2013
+4294080900:Caorso, ITA - May 9, 2013
+4294079214:Toronto, ON - May 8, 2013
+4294080316:Fort Worth, TX - May 8, 2013
+4294081244:Dubai, ARE - May 7, 2013
+4294081657:Cincinnati, OH - May 7, 2013
+4294081835:Lone Prairie, BC - May 3, 2013
+4294081899:Bloomingburg, NY - May 2, 2013
+4294082026:Lincoln, NE - May 1, 2013
+4294082264:Richmond, VA - Apr 30, 2013
+4294082142:Grand Junction, CO - Apr 30, 2013
+4294085521:Findlater, SK - Apr 27, 2013
+4294085682:Williston, ND - Apr 26, 2013
+4294087102:Lyon, FRA - Apr 25, 2013
+4294087140:Jackson, MS - Apr 25, 2013
+4294087242:Yellow Creek, SK - Apr 24, 2013
+4294086982:Edmonton, AB - Apr 24, 2013
+4294087488:Neilburg, SK - Apr 23, 2013
+4294087439:Donington Park, UK - Apr 23, 2013
+4294087584:Wawota, SK - Apr 22, 2013
+4294087656:Marsden, SK - Apr 22, 2013
+4294088624:Grenfell, SK - Apr 20, 2013
+4294088475:Drayton Valley, AB - Apr 20, 2013
+4294088245:Cupar, SK - Apr 20, 2013
+4294088213:Phoenix, AZ - Apr 19, 2013
+4294088671:Milden, SK - Apr 19, 2013
+4294088363:Ituna, SK - Apr 19, 2013
+4294090578:Ogema, SK - Apr 18, 2013
+4294089141:Munich, DEU - Apr 18, 2013
+4294090488:Jean Cote, AB - Apr 18, 2013
+4294090611:Dysart, SK - Apr 18, 2013
+4294088763:Beijing, CHN - Apr 18, 2013
+4294091052:Ottawa, ON - Apr 17, 2013
+4294090434:Houston, TX - Apr 17, 2013
+4294090804:Grenfell, SK - Apr 17, 2013
+4294090735:Fairview, AB - Apr 17, 2013
+4294091161:Willow Bunch, SK - Apr 16, 2013
+4294091108:Sintaluta, SK - Apr 16, 2013
+4294091340:Guy, AB - Apr 15, 2013
+4294091436:Earl Grey, SK - Apr 15, 2013
+4294091641:Kayville, SK - Apr 13, 2013
+4294091542:Dysart, SK - Apr 13, 2013
+4294091795:Winnipeg, MB - Apr 12, 2013
+4294091786:Sovereign, SK - Apr 12, 2013
+4294091774:Panama City, PAN - Apr 12, 2013
+4294091716:Coos Bay, OR - Apr 12, 2013
+4294092531:Rorketon, MB - Apr 11, 2013
+4294092687:Pittsburgh, PA - Apr 11, 2013
+4294092393:Grande Prairie, AB - Apr 11, 2013
+4294093475:Williamsport, PA - Apr 10, 2013
+4294092876:Truro, NS - Apr 10, 2013
+4294093517:St. Louis, SK - Apr 10, 2013
+4294093117:Salinas, CA - Apr 10, 2013
+4294093394:Neepawa, MB - Apr 10, 2013
+4294093947:Raleigh-Durham, NC - Apr 9, 2013
+4294093648:Ponteix, SK - Apr 9, 2013
+4294094142:Hanna, AB - Apr 9, 2013
+4294094188:Canora, SK - Apr 9, 2013
+4294094243:Semans, SK - Apr 8, 2013
+4294094304:Provost, AB - Apr 8, 2013
+4294094536:Churchbridge, SK - Apr 6, 2013
+4294094432:Rycroft, AB - Apr 5, 2013
+4294094599:Grenfell, SK - Apr 5, 2013
+4294094663:Elbow, SK - Apr 5, 2013
+4294094883:Rycroft, AB - Apr 4, 2013
+4294095023:Mundare, AB - Apr 4, 2013
+4294094989:Grenfell, SK - Apr 4, 2013
+4294095115:Duval, SK - Apr 3, 2013
+4294095160:Crossfield, AB - Apr 3, 2013
+4294095323:Regina, SK - Apr 2, 2013
+4294095428:Hussar, AB - Apr 2, 2013
+4294095509:Mossbank, SK - Mar 28, 2013
+4294095783:Lethbridge, AB - Mar 28, 2013
+4294096280:Kansas City, MO - Mar 28, 2013
+4294096087:Atlanta, GA - Mar 28, 2013
+4294096872:Johannesburg, ZAF - Mar 27, 2013
+4294096759:Chilliwack, BC - Mar 27, 2013
+4294097078:Albuquerque, NM - Mar 27, 2013
+4294097953:Nashville, TN - Mar 26, 2013
+4294098232:Minneapolis, MN - Mar 26, 2013
+4294097652:Denver, CO - Mar 26, 2013
+4294099202:Oyen, AB - Mar 23, 2013
+4294099852:Sacramento, CA - Mar 22, 2013
+4294100297:Chicago, IL - Mar 22, 2013
+4294099142:Moerdijk, NLD - Mar 21, 2013
+4294101566:Brisbane, AUS - Mar 21, 2013
+4294101189:Montreal, QC - Mar 20, 2013
+4294102489:Los Angeles, CA - Mar 20, 2013
+4294103244:St Aubin Sur Gaillon, FRA - Mar 19, 2013
+4294102973:Saskatoon, SK - Mar 19, 2013
+4294103951:North East, MD - Mar 19, 2013
+4294104282:Geelong, AUS - Mar 19, 2013
+4294106525:St. Louis, MO - Mar 14, 2013
+4294105513:Mexico National Auction - Mar 14, 2013
+4294106406:Columbus, OH - Mar 14, 2013
+4294105248:Ocana / Moncofa, ESP - Mar 13, 2013
+4294106065:Meppen, DEU - Mar 13, 2013
+4294106136:Lisbon, PRT - Mar 13, 2013
+4294106791:Salt Lake City, UT - Mar 8, 2013
+4294107768:Edmonton, AB - Mar 7, 2013
+4294108407:Caorso, ITA - Mar 7, 2013
+4294109725:Fort Worth, TX - Mar 5, 2013
+4294108824:Dubai, ARE - Mar 5, 2013
+4294110374:Chehalis, WA - Mar 5, 2013
+4294110775:Toronto, ON - Mar 4, 2013
+4294113380:Orlando, FL - Feb 18, 2013
+4294114214:Tipton, CA - Feb 15, 2013
+4294115603:Phoenix, AZ - Feb 13, 2013
+4294115799:Donington Park, UK - Feb 12, 2013
+4294116163:Las Vegas, NV - Feb 8, 2013
+4294117090:Houston, TX - Feb 6, 2013
+4294119492:St. Louis, MO - Dec 20, 2012
+4294119287:Los Angeles, CA - Dec 20, 2012
+4294121665:Prince George, BC - Dec 19, 2012
+4294121595:Nashville, TN - Dec 19, 2012
+4294122340:Truro, NS - Dec 18, 2012
+4294121498:Salt Lake City, UT - Dec 18, 2012
+4294122178:North East, MD - Dec 18, 2012
+4294122383:Clayhurst, BC - Dec 18, 2012
+4294122659:Minneapolis, MN - Dec 14, 2012
+4294122805:Albuquerque, NM - Dec 14, 2012
+4294123978:London, ON - Dec 13, 2012
+4294124465:Kansas City, MO - Dec 13, 2012
+4294123787:Edmonton, AB - Dec 13, 2012
+4294125177:Sacramento, CA - Dec 12, 2012
+4294125587:Raleigh-Durham, NC - Dec 12, 2012
+4294125446:Chicago, IL - Dec 12, 2012
+4294124852:Dubai, ARE - Dec 11, 2012
+4294126064:Denver, CO - Dec 11, 2012
+4294125711:Conshohocken, PA - Dec 11, 2012
+4294126742:Toronto, ON - Dec 10, 2012
+4294126766:Salinas, CA - Dec 7, 2012
+4294129013:Kisbey, SK - Dec 6, 2012
+4294128605:Columbus, OH - Dec 6, 2012
+4294128967:Chehalis (Olympia), WA - Dec 6, 2012
+4294127459:Caorso, ITA - Dec 6, 2012
+4294128243:Montreal, QC - Dec 5, 2012
+4294129286:Chilliwack, BC - Dec 5, 2012
+4294131309:St Aubin Sur Gaillon, FRA - Dec 4, 2012
+4294130872:Saskatoon, SK - Dec 4, 2012
+4294130998:Hartford, CT - Dec 4, 2012
+4294130440:Fort Worth, TX - Dec 4, 2012
+4294132418:Mexico National Auction - Nov 30, 2012
+4294132123:Ocana, ESP - Nov 29, 2012
+4294133070:Geelong, AUS - Nov 29, 2012
+4294132844:Atlanta, GA - Nov 29, 2012
+4294133488:Grande Prairie, AB - Nov 28, 2012
+4294133537:Oakdale, CA - Nov 27, 2012
+4294133791:Brisbane, AUS - Nov 27, 2012
+4294134607:Moerdijk, NLD - Nov 22, 2012
+4294135038:Panama City, PAN - Nov 21, 2012
+4294137390:Pittsburgh, PA - Nov 15, 2012
+4294136968:Phoenix, AZ - Nov 15, 2012
+4294138229:Meppen, DEU - Nov 15, 2012
+4294137228:Lethbridge, AB - Nov 15, 2012
+4294136422:Houston, TX - Nov 14, 2012
+4294138343:Bozeman, MT - Nov 13, 2012
+4294138553:Twin Falls, ID - Nov 9, 2012
+4294138638:Bruno, SK - Nov 3, 2012
+4294138766:Williston, ND - Nov 1, 2012
+4294138902:Lloydminster, SK - Oct 31, 2012
+4294139078:Regina, SK - Oct 30, 2012
+4294140766:Veregin, SK - Oct 25, 2012
+4294141061:Orlando, FL - Oct 25, 2012
+4294141472:Moncofa, ESP - Oct 25, 2012
+4294141647:Odessa, SK - Oct 24, 2012
+4294140687:Edmonton, AB - Oct 24, 2012
+4294142280:North East, MD - Oct 23, 2012
+4294141773:Lisbon, PRT - Oct 23, 2012
+4294142423:Guy, AB - Oct 23, 2012
+4294142485:Bunbury (Perth), AUS - Oct 23, 2012
+4294142591:Elmworth, AB - Oct 22, 2012
+4294142871:Tipton, CA - Oct 19, 2012
+4294143039:Moultrie, GA - Oct 19, 2012
+4294143508:Prince George, BC - Oct 18, 2012
+4294143206:Pincher Creek, AB - Oct 18, 2012
+4294143743:Ottawa, ON - Oct 17, 2012
+4294144744:Esterhazy, SK - Oct 13, 2012
+4294144617:Sacramento, CA - Oct 12, 2012
+4294145042:Chicago, IL - Oct 11, 2012
+4294145163:Ceylon, SK - Oct 11, 2012
+4294145629:El Paso (Vado,NM), TX - Oct 10, 2012
+4294145528:Chilliwack, BC - Oct 10, 2012
+4294147186:Hartford, CT - Oct 4, 2012
+4294147035:Caorso, ITA - Oct 4, 2012
+4294146456:Grande Prairie, AB - Oct 3, 2012
+4294147442:Detroit (Novi), MI - Oct 3, 2012
+4294148194:St Aubin Sur Gaillon, FRA - Oct 2, 2012
+4294147940:Saskatoon, SK - Oct 2, 2012
+4294148803:St. Louis, MO - Sep 28, 2012
+4294149266:Munich, DEU - Sep 27, 2012
+4294148626:Las Vegas, NV - Sep 27, 2012
+4294148917:Lacombe, AB - Sep 27, 2012
+4294149732:Raleigh-Durham, NC - Sep 26, 2012
+4294152115:Toronto, ON - Sep 25, 2012
+4294151305:Fort Worth, TX - Sep 25, 2012
+4294149996:Dubai, ARE - Sep 25, 2012
+4294152336:Minneapolis, MN - Sep 24, 2012
+4294154572:Nashville, TN - Sep 21, 2012
+4294153062:Moerdijk, NLD - Sep 20, 2012
+4294154421:Los Angeles, CA - Sep 20, 2012
+4294155856:Geelong, AUS - Sep 20, 2012
+4294154855:Atlanta, GA - Sep 20, 2012
+4294155576:Montreal, QC - Sep 19, 2012
+4294156187:Kansas City, MO - Sep 19, 2012
+4294156246:Corvallis, OR - Sep 19, 2012
+4294156433:Donington Park, UK - Sep 18, 2012
+4294157060:Chehalis (Olympia), WA - Sep 18, 2012
+4294157300:Brisbane, AUS - Sep 18, 2012
+4294157426:Winnipeg, MB - Sep 17, 2012
+4294158535:Jackson, MS - Sep 14, 2012
+4294157759:Denver, CO - Sep 14, 2012
+4294158443:Ocana, ESP - Sep 13, 2012
+4294158828:Mexico National Auction - Sep 13, 2012
+4294159032:Columbus, OH - Sep 13, 2012
+4294159284:Truro, NS - Sep 12, 2012
+4294159425:Salt Lake City, UT - Sep 11, 2012
+4294159931:Phoenix, AZ - Sep 7, 2012
+4294161232:Louisville, KY - Sep 6, 2012
+4294161092:Edmonton, AB - Sep 5, 2012
+4294161554:Gillette, WY - Aug 30, 2012
+4294161983:North East, MD - Aug 28, 2012
+4294162852:Houston, TX - Aug 22, 2012
+4294163377:Orlando, FL - Aug 16, 2012
+4294163069:Albuquerque, NM - Aug 16, 2012
+4294163758:Sacramento, CA - Aug 14, 2012
+4294164155:Grande Prairie, AB - Aug 2, 2012
+4294163796:Eatonia, SK - Aug 2, 2012
+4294164414:Chicago, IL - Aug 2, 2012
+4294164504:Aurora, IL - Aug 1, 2012
+4294164893:Saskatoon, SK - Jul 31, 2012
+4294164943:Panama City, PAN - Jul 26, 2012
+4294165361:Chilliwack, BC - Jul 25, 2012
+4294166773:Fort Worth, TX - Jul 24, 2012
+4294167419:Rocky Mount, VA - Jul 19, 2012
+4294167119:Prince George, BC - Jul 19, 2012
+4294167186:Lanigan, SK - Jul 19, 2012
+4294167855:London, ON - Jul 18, 2012
+4294167594:Fort Macleod, AB - Jul 18, 2012
+4294168047:Regina, SK - Jul 17, 2012
+4294168573:Dubai, ARE - Jul 17, 2012
+4294168461:Anchorage (Wasilla), AK - Jul 17, 2012
+4294168996:Montreal, QC - Jul 12, 2012
+4294169576:Caorso, ITA - Jul 12, 2012
+4294170800:Toronto, ON - Jul 10, 2012
+4294171174:Truro, NS - Jul 5, 2012
+4294170939:Preeceville, SK - Jul 5, 2012
+4294173455:Aubigny, MB - Jun 30, 2012
+4294171853:St. Louis, MO - Jun 29, 2012
+4294171662:Phoenix, AZ - Jun 29, 2012
+4294173683:Langham, SK - Jun 29, 2012
+4294173540:Hamiota, MB - Jun 29, 2012
+4294172241:Birdsboro, PA - Jun 29, 2012
+4294173799:Viscount, SK - Jun 28, 2012
+4294172635:Moncofa, ESP - Jun 28, 2012
+4294174028:Langbank, SK - Jun 28, 2012
+4294173357:Grande Prairie, AB - Jun 28, 2012
+4294174303:Geelong, AUS - Jun 28, 2012
+4294173948:Canton, PA - Jun 28, 2012
+4294174816:Statesville, NC - Jun 27, 2012
+4294175181:Minneapolis, MN - Jun 27, 2012
+4294175548:St Aubin Sur Gaillon, FRA - Jun 26, 2012
+4294175912:Saskatoon, SK - Jun 26, 2012
+4294176573:Salt Lake City, UT - Jun 26, 2012
+4294176909:Brisbane, AUS - Jun 26, 2012
+4294176009:Avignon, FRA - Jun 26, 2012
+4294176377:Atlanta, GA - Jun 26, 2012
+4294177051:Lloydminster, AB - Jun 25, 2012
+4294177232:Strasbourg, SK - Jun 23, 2012
+4294177092:Gainsborough, SK - Jun 23, 2012
+4294177268:Shellbrook, SK - Jun 22, 2012
+4294177365:Bozeman, MT - Jun 22, 2012
+4294177968:Moerdijk, NLD - Jun 21, 2012
+4294178458:Columbus, OH - Jun 21, 2012
+4294178185:Calgary (Crossfield), AB - Jun 21, 2012
+4294179131:Nashville, TN - Jun 20, 2012
+4294178655:Mexico National Auction - Jun 20, 2012
+4294179016:Denver, CO - Jun 20, 2012
+4294179513:Mistatim, SK - Jun 19, 2012
+4294179748:Minot, ND - Jun 19, 2012
+4294179346:Lethbridge, AB - Jun 19, 2012
+4294179884:Hartford, CT - Jun 19, 2012
+4294179944:Dufresne, MB - Jun 19, 2012
+4294179988:Hamiota, MB - Jun 18, 2012
+4294180063:Sturgis, SK - Jun 16, 2012
+4294180340:Rolling Hills, AB - Jun 15, 2012
+4294180206:Regina, SK - Jun 15, 2012
+4294182312:Chehalis (Olympia), WA - Jun 14, 2012
+4294182412:Stettler, AB - Jun 13, 2012
+4294181397:Edmonton, AB - Jun 13, 2012
+4294183312:Peace River, AB - Jun 12, 2012
+4294183229:Houston, TX - Jun 12, 2012
+4294183484:Manning, AB - Jun 11, 2012
+4294183709:Marwayne, AB - Jun 8, 2012
+4294184731:Los Angeles, CA - Jun 8, 2012
+4294184984:Kansas City, MO - Jun 7, 2012
+4294185626:Sacramento, CA - Jun 6, 2012
+4294185240:Detroit (Novi), MI - Jun 6, 2012
+4294185931:North East, MD - Jun 5, 2012
+4294186013:Madison, WI - Jun 5, 2012
+4294186883:Ocana, ESP - May 31, 2012
+4294187076:Lisbon, PRT - May 31, 2012
+4294187647:Chilliwack, BC - May 30, 2012
+4294188073:Dubai, ARE - May 29, 2012
+4294189513:Meppen, DEU - May 24, 2012
+4294188850:Montreal, QC - May 23, 2012
+4294189788:Chicago, IL - May 22, 2012
+4294189925:Bunbury (Perth), AUS - May 22, 2012
+4294190350:Tipton, CA - May 18, 2012
+4294190081:San Antonio, TX - May 18, 2012
+4294190663:Orlando, FL - May 16, 2012
+4294190703:San Joaquin, CA - May 15, 2012
+4294190839:Mansfield, OH - May 15, 2012
+4294190942:Salinas, CA - May 12, 2012
+4294191242:Prince George, BC - May 10, 2012
+4294191841:Caorso, ITA - May 10, 2012
+4294192480:Toronto, ON - May 9, 2012
+4294193268:Fort Worth, TX - May 8, 2012
+4294193693:Las Vegas, NV - May 4, 2012
+4294193822:Gonzales, LA - May 3, 2012
+4294194463:Phoenix, AZ - May 2, 2012
+4294195054:Truro, NS - May 1, 2012
+4294194710:Beaverlodge, AB - May 1, 2012
+4294195806:Melville, SK - Apr 28, 2012
+4294195954:High Prairie, AB - Apr 28, 2012
+4294196478:Kronau, SK - Apr 27, 2012
+4294196271:Huron, SD - Apr 27, 2012
+4294196342:Hotchkiss, AB - Apr 27, 2012
+4294196160:El Paso, TX - Apr 27, 2012
+4294197884:Raymore, SK - Apr 26, 2012
+4294197857:Ogema, SK - Apr 26, 2012
+4294195603:Moncofa, ESP - Apr 26, 2012
+4294197995:Tramping Lake, SK - Apr 25, 2012
+4294198291:St. Gregor, SK - Apr 25, 2012
+4294198229:Lincoln, NE - Apr 25, 2012
+4294198539:Pittsburgh, PA - Apr 24, 2012
+4294197742:Edmonton, AB - Apr 24, 2012
+4294198622:Broadview, SK - Apr 24, 2012
+4294198820:Neudorf, SK - Apr 23, 2012
+4294198900:Ceylon, SK - Apr 23, 2012
+4294199095:Rocanville, SK - Apr 21, 2012
+4294199919:Leross, SK - Apr 21, 2012
+4294198969:Dundurn, SK - Apr 21, 2012
+4294199802:Grand Junction, CO - Apr 20, 2012
+4294200103:Forestburg, AB - Apr 20, 2012
+4294200042:Coronach, SK - Apr 20, 2012
+4294199947:Ardath, SK - Apr 20, 2012
+4294199637:Moerdijk, NLD - Apr 19, 2012
+4294200160:Cochrane, AB - Apr 19, 2012
+4294200659:Saskatoon, SK - Apr 18, 2012
+4294200811:Reno, NV - Apr 18, 2012
+4294200994:Wainwright, AB - Apr 17, 2012
+4294201315:Tillsonburg, ON - Apr 17, 2012
+4294200950:Ernfold, SK - Apr 17, 2012
+4294201518:Donington Park, UK - Apr 17, 2012
+4294201618:Macklin, SK - Apr 16, 2012
+4294201899:Fenwood, SK - Apr 16, 2012
+4294201807:Fairview, AB - Apr 16, 2012
+4294202130:Crystal City, MB - Apr 16, 2012
+4294203071:Theodore, SK - Apr 14, 2012
+4294202847:Notre Dame De Lourdes, MB - Apr 14, 2012
+4294202977:Gull Lake, SK - Apr 14, 2012
+4294202742:Charlie Lake, BC - Apr 14, 2012
+4294203158:Calgary, AB - Apr 14, 2012
+4294203334:Woodrow, SK - Apr 13, 2012
+4294203438:Teulon, MB - Apr 13, 2012
+4294202071:Preeceville, SK - Apr 13, 2012
+4294202495:Grants Pass, OR - Apr 13, 2012
+4294203284:Girouxville, AB - Apr 13, 2012
+4294204981:Ste Rose Du Lac, MB - Apr 12, 2012
+4294203711:Raymore, SK - Apr 12, 2012
+4294203509:Panama City, PAN - Apr 12, 2012
+4294204035:Ottawa, ON - Apr 12, 2012
+4294203863:Girouxville, AB - Apr 12, 2012
+4294204772:Houston, TX - Apr 11, 2012
+4294204985:Gerald, SK - Apr 11, 2012
+4294205920:Weyburn, SK - Apr 10, 2012
+4294205698:Sheho, SK - Apr 10, 2012
+4294205833:Gravelbourg, SK - Apr 10, 2012
+4294205531:Grande Prairie, AB - Apr 10, 2012
+4294206309:Lanigan, SK - Apr 9, 2012
+4294206517:Frontier, SK - Apr 9, 2012
+4294206598:Wawota, SK - Apr 7, 2012
+4294206665:Spirit River, AB - Apr 7, 2012
+4294206718:Wetaskiwin, AB - Apr 5, 2012
+4294206793:Kronau, SK - Apr 5, 2012
+4294206886:Rosetown, SK - Apr 4, 2012
+4294206946:Hilliard, AB - Apr 4, 2012
+4294207103:Hartford, CT - Apr 4, 2012
+4294207219:Dickinson, ND - Apr 4, 2012
+4294204990:Standard, AB - Apr 3, 2012
+4294207346:Leroy, SK - Apr 3, 2012
+4294207783:Climax, SK - Apr 3, 2012
+4294207571:Charleston, WV - Apr 3, 2012
+4294208145:Okotoks, AB - Apr 2, 2012
+4294208046:Climax, SK - Apr 2, 2012
+4294208270:Lundbreck, AB - Mar 31, 2012
+4294208634:St. Louis, MO - Mar 30, 2012
+4294208355:Jackson, MS - Mar 30, 2012
+4294209093:Regina, SK - Mar 29, 2012
+4294209358:Des Moines, IA - Mar 29, 2012
+4294210008:Chehalis (Olympia), WA - Mar 29, 2012
+4294210341:Atlanta, GA - Mar 29, 2012
+4294210876:Statesville, NC - Mar 28, 2012
+4294208901:Mexico National Auction - Mar 28, 2012
+4294210497:London, ON - Mar 28, 2012
+4294212409:Sacramento, CA - Mar 27, 2012
+4294211133:Lethbridge, AB - Mar 27, 2012
+4294211779:North East, MD - Mar 26, 2012
+4294213213:Doylestown, PA - Mar 23, 2012
+4294213442:Salt Lake City, UT - Mar 22, 2012
+4294213141:Montreal, QC - Mar 22, 2012
+4294213967:Geelong, AUS - Mar 22, 2012
+4294213650:Columbus, OH - Mar 22, 2012
+4294215016:Minneapolis, MN - Mar 21, 2012
+4294214478:Chilliwack, BC - Mar 21, 2012
+4294214755:Albuquerque, NM - Mar 21, 2012
+4294215173:Nashville, TN - Mar 20, 2012
+4294215525:Brisbane, AUS - Mar 20, 2012
+4294216590:Springfield, IL - Mar 16, 2012
